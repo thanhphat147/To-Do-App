@@ -9,10 +9,10 @@ class ToDoDatabase {
   //create initial data, running method if this is the first time ever open the app
   void createInitialData() {
     //list to-do
-    toDoList = [
-      ["Do Exercise", false],
-      ["Eat breakfast", false],
-    ];
+    // toDoList = [
+    //   ["Do Exercise", false],
+    //   ["Eat breakfast", false],
+    // ];
   }
 
   //load the data from hive database
